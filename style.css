@@ -1,0 +1,41 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.read-fields{
+    width: 600px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+label{
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+input{
+    margin-bottom: 5px;
+    height: 25px;
+}
+
+button{
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 5px;
+    align-self: flex-end;
+}
+
+h1{
+    text-align: center;
+    margin: 0;
+}
+
+.hide{
+    display: none;
+}

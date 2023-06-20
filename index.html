@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="read-fields">
+        <label>Введите Широту</label>
+        <input type="text" placeholder="55.755819" id="latitude">
+        <label>Введите долготу</label>
+        <input type="text" placeholder="37.617644" id="longitude">
+        <label>Введите приближение(необязательно)</label>
+        <input type="number" placeholder="1" id="scale">
+        <button title="Кликни" onclick="getCoordinates()">Рассчитать</button>
+    </div>
+    <div class="read-fields hide" id="result">
+        <h1>Результат</h1>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
